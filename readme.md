@@ -30,6 +30,9 @@ Detta kan vi bygga på för att lösa någon av uppgifterna längre ner.
 
 Tabell + RPC
 
+Svar på frågan, var lägger jag denna koden?
+- Gå till ditt projekt i supabase, klicka på "SQL Editor" i menyn till vänster. Klistra in koden nedan med kommentarer och allt och klicka på "Run".
+
 ```sql
 -- Om ni inte lagt till pgvector i gränssnittet, så kan ni också göra detta i editorn i Supabase.
 create extension if not exists vector;
